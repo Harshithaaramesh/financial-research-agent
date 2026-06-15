@@ -1,0 +1,41 @@
+# Secrets & credentials 
+.env
+config/auth.yaml
+
+# Python 
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environment 
+venv/
+.venv/
+env/
+
+# Runtime data (generated at runtime, not source code) 
+data/raw/
+data/vectorstore/
+data/reports/
+outputs/
+*.db
+
+# macOS 
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE 
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Misc 
+*.log
+FRA_Project_Explainer.docx
+Project-idea/

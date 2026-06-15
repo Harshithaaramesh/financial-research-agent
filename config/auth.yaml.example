@@ -1,0 +1,21 @@
+# Copy this file to auth.yaml and fill in your own values.
+# Passwords must be bcrypt-hashed — use streamlit-authenticator to generate them.
+# DO NOT commit auth.yaml (it is in .gitignore).
+
+credentials:
+  usernames:
+    admin:
+      name: Admin
+      email: admin@example.com
+      password: $2b$12$REPLACE_WITH_BCRYPT_HASH
+      role: admin
+    analyst:
+      name: Analyst
+      email: analyst@example.com
+      password: $2b$12$REPLACE_WITH_BCRYPT_HASH
+      role: analyst
+
+cookie:
+  name: fra_session
+  key: REPLACE_WITH_A_LONG_RANDOM_SECRET_KEY
+  expiry_days: 1
