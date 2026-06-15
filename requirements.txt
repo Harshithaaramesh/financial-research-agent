@@ -1,0 +1,17 @@
+langchain
+langchain-groq
+langchain-community
+langchain-text-splitters
+langgraph
+faiss-cpu
+sentence-transformers
+python-dotenv
+streamlit
+requests
+beautifulsoup4
+tiktoken
+pydantic
+reportlab
+streamlit-authenticator
+pyyaml
+pandas
